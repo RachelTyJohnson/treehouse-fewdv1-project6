@@ -1,2 +1,2 @@
-# treehouse-fewdv1-project6
-Project 6 (v1) - Interactive Video Player
+# Treehouse FEWDv1 Project 6
+(v1) Project 6 - Interactive Video Player
