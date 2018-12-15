@@ -33,7 +33,7 @@ function clickCaption(datacap){
   if (datacap==6){return 17.94;}
   if (datacap==7){return 22.37;}
   if (datacap==8){return 26.88;}
-  if (datacap==9){return 31.2;}
+  if (datacap==9){return 31.1;}
   if (datacap==10){return 34.73;}
   if (datacap==11){return 39.43;}
   if (datacap==12){return 41.19;}
@@ -52,7 +52,7 @@ function checkCaption(time){
   if (time > 13.96 && time <= 17.94){return 5;}
   if (time > 17.94 && time <= 22.37){return 6;}
   if (time > 22.37 && time <= 26.80){return 7;}
-  if (time > 26.88 && time <= 30.92){return 8;}
+  if (time > 26.88 && time <= 32.1){return 8;}
   if (time > 32.1 && time <= 34.73){return 9;}
   if (time > 34.73 && time <= 39.43){return 10;}
   if (time > 39.43 && time <= 41.19){return 11;}
