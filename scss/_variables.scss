@@ -1,0 +1,10 @@
+//breakpoints
+$bp-tablet: 768px;
+
+//colors
+$highlight: #adffc7;
+
+//breakpoint mixins
+@mixin tablet{
+  @media(min-width:$bp-tablet){@content;}
+}

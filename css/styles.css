@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  body {
+    max-width: 800px;
+    margin: 30px auto;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.video-wrapper .mejs__container {
+  width: 100% !important;
+}
+
+.captions {
+  padding: 15px;
+}
+.captions p {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .captions p {
+    font-size: 1.2em;
+  }
+}
+
+.highlighted {
+  background-color: #adffc7;
+}
+
+/*# sourceMappingURL=styles.css.map */
