@@ -6,6 +6,7 @@ $( document ).ready(function() {
   });
 
   const vid = document.querySelector("video");
+
   vid.ontimeupdate = function() {
     let datacap = checkCaption(vid.getCurrentTime());
     $('span').removeClass('highlighted');
@@ -15,8 +16,32 @@ $( document ).ready(function() {
       })
     }
   };
+
+  $('span').click(function(){
+    let capclicked = clickCaption( $(this).data('cap') );
+    vid.setCurrentTime(capclicked);
+  });
+
 });
 
+function clickCaption(datacap){
+  if (datacap==1){return 0.240;}
+  if (datacap==2){return 4.13;}
+  if (datacap==3){return 7.535;}
+  if (datacap==4){return 11.27;}
+  if (datacap==5){return 13.96;}
+  if (datacap==6){return 17.94;}
+  if (datacap==7){return 22.37;}
+  if (datacap==8){return 26.88;}
+  if (datacap==9){return 31.2;}
+  if (datacap==10){return 34.73;}
+  if (datacap==11){return 39.43;}
+  if (datacap==12){return 41.19;}
+  if (datacap==13){return 46.3;}
+  if (datacap==14){return 49.27;}
+  if (datacap==15){return 53.76;}
+  if (datacap==16){return 57.78;}
+}
 
 
 function checkCaption(time){

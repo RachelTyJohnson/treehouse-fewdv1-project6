@@ -35,6 +35,10 @@ h1{
   }
 }
 
+div.mejs__controls{
+  background:rgba(0,0,0,0.8) !important;
+}
+
 .highlighted{
   background-color: $highlight;
 }
